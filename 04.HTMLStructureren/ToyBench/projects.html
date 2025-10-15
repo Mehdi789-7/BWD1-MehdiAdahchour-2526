@@ -32,13 +32,36 @@
          <!-- Titel van de sectie -->
          <h2>Filter Projects</h2>
          <!-- Dropdown menu om categorie te kiezen -->
-         <span class="material-symbols-outlined">filter_list</span>
-         <select id="category" name="category">
-            <option value="">category...</option>
-            <option value="dolls">dolls</option>
-            <option value="cars">cars</option>
-            <option value="games">games</option>
-         </select>
+         <form>
+            <div>
+               <span class="material-symbols-outlined" aria-hidden="true">filter_list</span>
+               <label for="category">Categorie</label>
+               <select id="category" name="category">
+                  <option value="">category...</option>
+                  <option value="dolls">dolls</option>
+                  <option value="cars">cars</option>
+                  <option value="games">games</option>
+               </select>
+            </div>
+
+            <div>
+               <label>year</label>:
+               <label><input type="checkbox"> 50's</label>
+               <label><input type="checkbox"> 60's</label>
+            </div>
+
+            <div>
+               <label>state</label>:
+               <label><input type="radio" name="state"> todo</label>
+               <label><input type="radio" name="state"> doing</label>
+               <label><input type="radio" name="state"> done</label>
+            </div>
+
+            <div>
+               <button type="reset">X clear</button>
+               <button type="submit">apply</button>
+            </div>
+         </form>
       </section>
 
       <section>

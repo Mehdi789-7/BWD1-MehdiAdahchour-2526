@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
     <!-- site styles -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -42,19 +43,19 @@
                 <!-- Emailveld -->
                 <div>
                     <label for="email">Email *</label><br>
-                    <input type="text" id="email" required placeholder="e.g. johndoe@sky.net"><br>
+                    <input type="email" id="email" required placeholder="e.g. johndoe@sky.net"><br>
                 </div>
 
                 <!-- Telefooneld -->
                 <div>
                     <label for="phone">Phone *</label><br>
-                    <input type="text" id="phone" required placeholder="e.g. +32 489 44 33 22"><br>
+                    <input type="tel" id="phone" required placeholder="e.g. +32 489 44 33 22"><br>
                 </div>
 
                 <!-- Berichtveld -->
                 <div>
                     <label for="message">Message *</label><br>
-                    <textarea name="message" id="message"></textarea><br>
+                    <textarea name="message" id="message" required></textarea><br>
                 </div>
 
                 <!-- verzendknop -->
@@ -72,28 +73,30 @@
 
             <!-- Contactinformatie -->
             <address>
-                Address: <br>
-                1224 Park Pl,Brroklyn, NY 11213 <br>
-                Phone: <br>
-                +1 800 559 6580 <br>
-                E-mail: <br>
-                <a href="mailto:ma@demolink.org">ma@demolink.org</a>
+                <dl>
+                    <dt><span class="material-icons" aria-hidden="true">place</span> Address:</dt>
+                    <dd>1224 Park Pl, Brooklyn, NY 11213</dd>
+                    <dt><span class="material-icons" aria-hidden="true">call</span> Phone</dt>
+                    <dd><a href="tel:+18005596580">+1 800 559 6580</a></dd>
+                    <dt><span class="material-icons" aria-hidden="true">mail</span> E-mail</dt>
+                    <dd><a href="mailto:ma@demolink.org">ma@demolink.org</a></dd>
+                </dl>
             </address>
         </section>
 
-        <!-- Footer VAN DE PAGINA -->
-        <footer>
-            <!-- Copyright en credits -->
-            <p>OTS © 2045 | Privacy Policy | Design by <a href="http://www.templatemonster.com/">FreeTemplates.com</a></p>
-            <!-- icoon en links -->
-            <ul>
-                <li><a href="#" title="send us an email"><img src="img/icon-mail.png" alt="icon mail"></a></li>
-                <li><a href="#" title="follow us on rss"><img src="img/icon-rss.png" alt="icon rss"></a></li>
-                <li><a href="#" title="tweet about us"><img src="img/icon-twitter.png" alt="icon twitter"></a></li>
-            </ul>
-        </footer>
-
     </main>
+
+    <!-- Footer VAN DE PAGINA -->
+    <footer>
+        <!-- Copyright en credits -->
+        <p>OTS © 2045 | Privacy Policy | Design by <a href="http://www.templatemonster.com/">FreeTemplates.com</a></p>
+        <!-- icoon en links -->
+        <ul>
+            <li><a href="#" title="send us an email"><img src="img/icon-mail.png" alt="icon mail"></a></li>
+            <li><a href="#" title="follow us on rss"><img src="img/icon-rss.png" alt="icon rss"></a></li>
+            <li><a href="#" title="tweet about us"><img src="img/icon-twitter.png" alt="icon twitter"></a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
