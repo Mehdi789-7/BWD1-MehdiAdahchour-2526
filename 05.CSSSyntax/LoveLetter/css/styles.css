@@ -38,7 +38,7 @@ h1 span {
 }
 
 main {
-   color: rgb(10, 10, 180);
+   color: #0a0ab4;
    padding-top: 8px;
    font-family: "Indie Flower", cursive;
    font-weight: 400;
@@ -47,7 +47,7 @@ main {
 }
 
 mark {
-   background-color: rgba(255, 117, 117, 0.356);
+   background-color: rgba(255 117 117 / 36%);
    color: (black);
    font-weight: bold;
 }

@@ -19,8 +19,23 @@
    =========================================== */
 
 /* menu styles here */
-/* ... */
 
+nav ul{
+  list-style:none;
+  display:flex;
+}
+
+nav a{
+  padding:6px 10px;
+  font-size:12px;
+  text-decoration:none;
+  color:#323030;
+}
+
+.active{
+   background-color: #a52a2a;
+   color: #ffff;
+}
 
 
 /* ===========================================
@@ -28,7 +43,16 @@
    =========================================== */
 
 /* banner styles here */
-/* ... */
+#banner{
+   border: 5px solid #a52a2a;
+   background: url("../img/banner.jpg");
+}
+
+#banner p{
+   font-size: 12px;
+   color:#fff;
+   background-color: #323030;
+}
 
 
 
@@ -37,7 +61,11 @@
    =========================================== */
 
 /* main styles here */
-/* ... */
+h3{
+   color: #b81616;
+   text-transform:uppercase;
+   line-height: 1;
+}
 
 
 /* ===========================================
