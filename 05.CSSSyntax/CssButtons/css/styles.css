@@ -11,10 +11,10 @@
     transition: background-color .25s ease, transform .2s ease;
 }
 
-.btnGreen::after{
-    content: " \2192";                    
+.btnGreen::after{                    
     display: inline-block;
     margin-left: 16px;
+    content: " \2192";
 }
 
 .btnGreen:hover{

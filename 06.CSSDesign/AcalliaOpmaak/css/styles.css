@@ -12,6 +12,12 @@
 
 /* html, body and general element styles here */
 /* ... */
+body{
+   background-color: #dfdfdf;
+   font-family: "Roboto", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+   font-size: 13px;
+   line-height: 1.8;
+}
 
 
 /* ===========================================
@@ -26,14 +32,19 @@ nav ul{
 }
 
 nav a{
-  padding:6px 10px;
-  font-size:12px;
-  text-decoration:none;
-  color:#323030;
+   color:#323030;
+   font-size:12px;
+   padding:6px 10px;
+   text-decoration:none;
+}
+
+nav a:hover{
+   text-decoration: underline;
+   text-underline-offset: 10px;
 }
 
 .active{
-   background-color: #a52a2a;
+   background-color: #B52025;
    color: #ffff;
 }
 
@@ -44,14 +55,15 @@ nav a{
 
 /* banner styles here */
 #banner{
-   border: 5px solid #a52a2a;
+   border: 5px solid #B52025;
    background: url("../img/banner.jpg");
+   box-shadow: 1px 10px 5px #888;
 }
 
 #banner p{
-   font-size: 12px;
-   color:#fff;
    background-color: #323030;
+   color:#fff;
+   font-size: 12px;
 }
 
 
@@ -62,12 +74,42 @@ nav a{
 
 /* main styles here */
 h3{
-   color: #b81616;
+   color: #B52025;
+   font-size: 20px;
+   font-weight: 400;
    text-transform:uppercase;
-   line-height: 1;
 }
 
+h3::after{
+   content: " \2192";
+}
 
+.minibanner{
+   border: 1px solid #a8a6a6;
+}
+
+.more{
+
+}
+
+.more a{
+   border: 1px solid #B52025;
+   border-radius: 5px;
+   color: #B52025;
+   display: inline-block;
+   font-weight: 700;
+   padding: 3px 12px;
+   text-decoration: none;
+}
+
+.newsletter #email{
+   background-color: #FDEAEB;
+}
+
+.newsletter button{
+   background-color: #B52025;
+   color: #fff;
+}
 /* ===========================================
    Footer
    =========================================== */
