@@ -12,11 +12,15 @@
 
 /* html, body and general element styles here */
 /* ... */
-body{
+html{
    background-color: #dfdfdf;
+}
+body{
+   background-color: #fff;
    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
    font-size: 13px;
    line-height: 1.8;
+   text-align: justify;
 }
 
 
@@ -89,7 +93,7 @@ h3::after{
 }
 
 .more{
-
+   margin-left: 89%;
 }
 
 .more a{
@@ -110,9 +114,23 @@ h3::after{
    background-color: #B52025;
    color: #fff;
 }
+
+.newsletter label{
+   display: none;
+}
+
+.newsletter button:hover{
+   background-color: #a32328;
+}
+
 /* ===========================================
    Footer
    =========================================== */
 
 /* footer styles here */
 /* ... */
+footer{
+   background-color: #dfdfdf;
+   display: flex;
+   justify-content: center;
+}
