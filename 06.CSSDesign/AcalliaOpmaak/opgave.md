@@ -11,7 +11,7 @@ Het maakt niet zo uit in welke volgorde je de opmaak doet. De basislijst:
 - pagina: grijze achtergrondkleur
 - menu: opmaak + hover effect (tip: dit lijkt sterk op het horizontaal menu uit de CssMenus oefening)
 - banner: tekstkleur, achtergrondafbeelding en rode rand
-- tekst in de banner: achtergrondkleur van de tekst in de banner (tip voor transparantie: zie [deze slide](https://rogiervdl.github.io/CSS-course/02_design.html#/rgba-hsla))
+- tekst in de banner: achtergrondkleur van de tekst in de banner (tip  tranvoorsparantie: zie [deze slide](https://rogiervdl.github.io/CSS-course/02_design.html#/rgba-hsla))
 - titels: opmaak
 - links in de content: verberg de lijntjes eronder; toon lijntjes weer bij hover
 - afbeeldingen links: rand errond
