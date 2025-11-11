@@ -1,3 +1,31 @@
-#topbar a{
-    
+#topbar li a{
+    padding: 10px;
+}
+
+#einstein {
+    margin-bottom: 30px;
+}
+
+h2 {
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.logo img {
+    border: 7px solid #ffffff;
+}
+
+h3 {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.button {
+    padding: 10px;
+    margin-top: 25px;
+}
+
+#ctaTwitter {
+    display: flex;
+    flex-flow: nowrap;
 }
