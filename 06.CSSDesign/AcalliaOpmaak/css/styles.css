@@ -130,7 +130,8 @@ h3::after{
 /* footer styles here */
 /* ... */
 footer{
-   background-color: #dfdfdf;
+   background-color: #ecebeb;
+   border-top: #afafaf dashed;
    display: flex;
    justify-content: center;
 }
