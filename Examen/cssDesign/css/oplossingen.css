@@ -1,0 +1,61 @@
+/*
+ * Jouw oplossing hier
+ *
+ * @author Mehdi Adahchour mehdi.adahchour@student.odisee.be
+ */
+
+body {
+    font-family: "Open Sans ", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+nav ul{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+nav a:hover{
+   background-color: #b5b4b4;
+
+}
+
+.active a{
+    color: #F03C02;
+}
+
+#banner {
+    background-image: url(../img/banner.jpg);
+}
+
+.box {
+    border-bottom: 5px solid #F03C02;
+
+}
+
+.box .btn {
+    background-color: #F03C02;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.wrapper .btn {
+    background-color: #F03C02;
+    border-radius: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #000;
+    transition: 0.5s;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.services {
+    justify-content: center;
+}
